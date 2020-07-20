@@ -5,10 +5,6 @@
 }
 
 body {
-    background-image: url("images/main-img.jpg");
-    background-repeat: no-repeat;
-    background-size: inherit;
-    background-size: 100% 100%;
 }
 
 #wrapper {
@@ -18,25 +14,25 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     grid-template-areas: 
-    "header header header header"
+    "main main main main"
+    "main main main main"
     "main main main main"
     "section section section section"
     "footer footer footer footer";
 }
 
 header {
-    grid-area: header;
-    align-items: center;
     display: flex;
-}
-
-nav {
-    grid-area: nav;
-
+    align-items: center;
+    margin-top: 5%;
 }
 
 main {
     grid-area: main;
+    background-image: url("images/main-img.jpg");
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-size: 100% 100%;
 }
 
 section {
@@ -48,13 +44,24 @@ footer {
 }
 
 nav {
-    background-color: rgb(179, 179, 179);
+    background: url("https://archive.fo/UW4oR/959dc37b1b6692997a6d3ab19862dd59e5e83ecf.png") no-repeat;
     width: 90%;
     display: flex;
     margin: auto;
     padding: 10px;
     border-radius: 5px;
     justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial;
+    color: white;
+}
+
+.apple-logo {
+    object-fit: cover;
+    width: 15px;
 }
 
 section {
