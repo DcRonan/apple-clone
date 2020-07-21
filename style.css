@@ -142,5 +142,8 @@ footer a {
 
 .footer-right li {
   padding: 0 10px;
+}
+
+.footer-link {
   border-right: solid 1px gray;
 }
