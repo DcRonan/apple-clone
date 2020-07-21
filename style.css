@@ -110,6 +110,8 @@ section img {
 }
 
 #search-bar:focus {
+  -webkit-animation-name: "search-size";
+  -moz-animation-name: "search-size";
   animation-name: "search-size";
   animation-duration: 1s;
   animation-fill-mode: forwards;
