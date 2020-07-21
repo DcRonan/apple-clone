@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
-body {
-}
 
 #wrapper {
     display: grid;
@@ -44,11 +43,11 @@ footer {
 }
 
 nav {
-    background: url("https://archive.fo/UW4oR/959dc37b1b6692997a6d3ab19862dd59e5e83ecf.png") no-repeat;
-    width: 90%;
+    background: url("https://archive.fo/UW4oR/959dc37b1b6692997a6d3ab19862dd59e5e83ecf.png") repeat-x;
+    width: 80%;
     display: flex;
     margin: auto;
-    padding: 10px;
+    padding: 10px 0;
     border-radius: 5px;
     justify-content: space-evenly;
 }
@@ -71,4 +70,56 @@ section {
 section img {
     object-fit: cover;
     width: 100%;
+}
+
+#search-bar {
+    max-width: 90%;
+    border-radius: 5px;
+    border: solid 1px rgb(145, 145, 145);
+    background-color:rgb(110, 110, 110);
+}
+
+.fa-play-circle {
+    color: white;
+    font-size: 20px;
+}
+
+.text-flex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: -70px auto;
+    width: 100%;
+    height: 100%;
+}
+
+.text-flex div {
+    margin: 20px auto;
+    color: white;
+    width: 80%;
+}
+
+.head-text {
+    font-size: 50px;
+}
+
+.middle-text {
+    font-size: 30px;
+}
+
+.last-text {
+    font-size: 25px;
+}
+
+.search-box {
+    position: relative;
+}
+
+.fa-search {
+    position: absolute;
+    left: 13px;
+    top: 3px;
+    font-size: smaller;
+    cursor: pointer;
 }
