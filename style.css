@@ -97,6 +97,7 @@ section img {
   border: solid 1px rgb(145, 145, 145);
   background-color: rgb(110, 110, 110);
   text-align: start;
+  outline: none;
 }
 
 @keyframes search-size {
