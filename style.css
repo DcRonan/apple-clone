@@ -118,8 +118,41 @@ section img {
 
 .fa-search {
     position: absolute;
-    left: 13px;
-    top: 3px;
+    left: 8%;
+    top: 25%;
     font-size: smaller;
     cursor: pointer;
 }
+
+footer {
+    font-size: 10px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 136, 204); 
+}
+
+.footer-left {
+    color: gray;
+    margin: 10px auto;
+    float: left;
+    width: 40%;
+}
+
+.footer-right ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    float: right;
+    width: 50%;
+}
+
+.footer-right li {
+    padding: 0 10px;
+    border-right: solid 1px gray;
+}
+
+
