@@ -43,19 +43,23 @@ footer {
 }
 
 nav {
-    background: url("https://archive.fo/UW4oR/959dc37b1b6692997a6d3ab19862dd59e5e83ecf.png") repeat-x;
-    width: 80%;
+    background: rgb(88,88,88);
+    background: linear-gradient(0deg, rgba(88,88,88,1) 3%, rgba(110,109,109,1) 64%, rgba(130,129,129,1) 95%);
+    width: 90%;
     display: flex;
     margin: auto;
-    padding: 10px 0;
     border-radius: 5px;
     justify-content: space-evenly;
+    
 }
 
 nav a {
     text-decoration: none;
     font: 12px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial;
     color: white;
+    border-right: 2px solid rgb(87, 87, 87);
+    width: 10%;
+    padding: 7px;
 }
 
 .apple-logo {
@@ -72,11 +76,16 @@ section img {
     width: 100%;
 }
 
+.search-box {
+    padding: 7px;
+}
+
 #search-bar {
-    max-width: 90%;
-    border-radius: 5px;
+    width: 120px;
+    border-radius: 10px;
     border: solid 1px rgb(145, 145, 145);
     background-color:rgb(110, 110, 110);
+    text-align: start;
 }
 
 .fa-play-circle {
@@ -90,26 +99,12 @@ section img {
     align-content: center;
     justify-content: center;
     margin: -70px auto;
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 
 .text-flex div {
     margin: 20px auto;
-    color: white;
-    width: 80%;
-}
-
-.head-text {
-    font-size: 50px;
-}
-
-.middle-text {
-    font-size: 30px;
-}
-
-.last-text {
-    font-size: 25px;
 }
 
 .search-box {
@@ -119,9 +114,10 @@ section img {
 .fa-search {
     position: absolute;
     left: 8%;
-    top: 25%;
-    font-size: smaller;
+    top: 32%;
+    font-size: 12px;
     cursor: pointer;
+    color: white;
 }
 
 footer {
@@ -147,12 +143,10 @@ footer a {
     display: flex;
     justify-content: center;
     float: right;
-    width: 50%;
+    width: 60%;
 }
 
 .footer-right li {
     padding: 0 10px;
     border-right: solid 1px gray;
 }
-
-
