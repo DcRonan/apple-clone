@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/DcRonan/apple-clone/main-grid/index.html)
+[Live Demo Link](https://raw.githack.com/DcRonan/apple-clone/master/index.html)
 
 
 ## Authors
