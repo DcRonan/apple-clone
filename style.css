@@ -99,6 +99,21 @@ section img {
   text-align: start;
 }
 
+@keyframes search-size {
+    from {
+      width: 120px;
+    }
+    to {
+      width: 200px;
+    }
+  }
+
+#search-bar:focus {
+    animation-name: "search-size";
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 .text-flex {
   flex-direction: column;
   align-content: center;
