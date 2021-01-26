@@ -1,6 +1,6 @@
 # Building with Backgrounds and Gradients
 
-> In this project we created a clone of an old apple webpage.
+> In this project, we created a clone of an old apple webpage.
 
 ![screenshot](images/main-page.png)
 
@@ -30,7 +30,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](enter issues url here).
+Feel free to check the [issues page](https://github.com/DcRonan/apple-clone/issues).
 
 ## Show your support
 
